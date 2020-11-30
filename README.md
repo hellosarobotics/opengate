@@ -1,1 +1,1 @@
-# opengate
+# OpenGate
