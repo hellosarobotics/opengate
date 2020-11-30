@@ -3,6 +3,7 @@ var apri = function(){
 			url: "apricancello",
 			type: "GET",
 			success: function (response, textStatus, xhr) {
+				toastr["success"]("Comando inviato!")
 				console.log("Apertura cancello")
 			},
 			error: function (XMLHttpRequest, textStatus, error) {
@@ -17,6 +18,7 @@ var aprieblocca = function(){
 			url: "apricancelloeblocca",
 			type: "GET",
 			success: function (response, textStatus, xhr) {
+				toastr["success"]("Comando inviato!")
 				console.log("Apertura cancello")
 			},
 			error: function (XMLHttpRequest, textStatus, error) {
